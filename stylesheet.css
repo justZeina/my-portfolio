@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+   background-color: rgb(201, 197, 194);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#skills {
+    color: rgb(83, 75, 67);
+}
+nav {
+    height:59 ;
+    text-align: left;
+    background-color: #f0f0f0
+    ;
+    padding: 15px;
+    
+   border-radius: 20px ;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold ;
+    font-size: 18px;
+    transition: color 0.3 ease;
+}
+nav a:hover {
+    box-shadow: 0 3px 16px;
+    color: #4f4b47;
+    padding: 5px;
+    padding-right: 380px;
+    border-radius: 7px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+#more{
+    text-align: left;
+}
+#projecttext {
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+     
+    background-color: rgb(99, 85, 74);
+    border-radius: 13px;
+    display: inline-block;
+}
+h2,a{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: rgb(95, 89, 81);
+    font-size: 17px;
+    border: #333;
+    background-color: #958f87;
+    
+    
+}
+.omg:hover{
+     color: rgb(95, 89, 81);
+    font-size: 25px;
+    border: #333;
+    
+}
+li{
+    height: 20px; width: 500px;
+
+}
+#greeting{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:0.5px;
+    font-weight: 1;
+    
+}
+i{
+    font-size: 25px;
+}
+i:hover{ font-size: 30px;
+    color: #494642;
+    transition: color ease 0.3;
+
+}
+#certificates h2{
+    color: #4f4b47;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #958f87;
+    border-radius: 10px;
+    
+}
+#certificates p{
+ background-color: #4f4b47;
+ padding: 30px; 
+ border-radius: 10px;
+}
