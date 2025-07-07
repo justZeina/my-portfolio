@@ -64,6 +64,7 @@ a:hover{
      color: rgb(95, 89, 81);
     font-size: 25px;
     border: #333;
+    cursor: pointer;
     
 }
 li{
@@ -128,7 +129,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 500px;
     display: flex;
     justify-content: center;
-    transform: translateX(-1%);
+    align-items: center;
+    text-align: center;
    }
    nav a{ font-size: 19.4px;}
    .mypic{
@@ -141,7 +143,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    .mypicdiv{
     display: flex;
     justify-content: center;
-    transform: translateX(10%);
+    align-items: center;
    }
    .mypic:hover{
     height: 380px;
@@ -164,3 +166,23 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* animation typrewriter soon */
     justify-content: flex-start;
 }
+  .major{
+ animation: typewriter 3s ease-in 0s infinite alternate;
+  }   
+
+  @keyframes typewriter{
+    from{
+    
+    } 
+    to{
+    
+    }
+  }
+
+    
+    
+
+
+  
+  
+   
