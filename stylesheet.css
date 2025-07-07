@@ -126,13 +126,13 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 @media(max-width: 600px ) {
    nav{
     height: 39px;
-    width: 500px;
+    width: 380px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
    }
-   nav a{ font-size: 19.4px;}
+   nav a{ font-size: 16px;}
    .mypic{
     height: 349px;
     width: 305px;
@@ -177,12 +177,3 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin: 0 auto;
   }
-  @keyframes typewriter{
-    from{
-    
-    } 
-    to{
-    
-    }
-  }
-  
